@@ -1,6 +1,3 @@
 flask
 numpy
 xgboost
-sklearn
-pickle
-pandas
