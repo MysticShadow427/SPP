@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Predictor</title>
+    <link rel="stylesheet" href="../static/style.css"/>
+</head>
+<body>
+
+    <h1>Student Placement Predictor</h1>
+    <form method="post" action="/predict">
+        <label>CGPA (in integer)</label><br>
+        <input type="text" name="cgpa"><br><br>
+
+        <label>Number of internships</label><br>
+        <input type="text" name="internships"><br><br>
+
+        <label>Stream (Civil:0,Computer Science:1,Electrical:2,Electronics and Communication:3,Information Technology:4,Mechanical:5)</label><br>
+        <input type="text" name="stream"><br><br>
+
+        <label>Number of backlogs</label><br>
+        <input type="text" name="backs"><br><br>
+
+        <label>Age</label><br>
+        <input type="text" name="age"><br><br>
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+
+
+</body>
+</html>
